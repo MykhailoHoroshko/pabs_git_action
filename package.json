@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild index.js --bundle --outfile=out.js"
+    "build": "echo \"build in progress\" "
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,5 @@
     "url": "https://github.com/MykhailoHoroshko/pabs_git_action/issues"
   },
   "homepage": "https://github.com/MykhailoHoroshko/pabs_git_action#readme",
-  "dependencies": {
-    "esbuild": "^0.15.14"
-  }
+  "dependencies": {}
 }
