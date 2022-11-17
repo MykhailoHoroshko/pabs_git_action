@@ -1,0 +1,23 @@
+{
+  "name": "pabs_git_action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild index.js --bundle --outfile=out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MykhailoHoroshko/pabs_git_action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MykhailoHoroshko/pabs_git_action/issues"
+  },
+  "homepage": "https://github.com/MykhailoHoroshko/pabs_git_action#readme",
+  "dependencies": {
+    "esbuild": "^0.15.14"
+  }
+}
