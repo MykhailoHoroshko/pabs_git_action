@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/MykhailoHoroshko/pabs_git_action#readme",
   "dependencies": {
+    "@pa-media-group/pa-semantic-release": "^2.0.0",
     "esbuild": "^0.15.14"
   }
 }
