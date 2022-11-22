@@ -17,7 +17,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Authenticate with private NPM package
-        run: echo "//nexus.pressassociation.io/repository/:_authToken=${{ secrets.NPM_TOKEN }} registry=https://nexus.pressassociation.io/repository/npm-group" > ~/.npmrc
       - run: npm ci
       - run: npm run build
+      - run: ls -la .serverless
