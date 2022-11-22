@@ -1,5 +1,3 @@
-function main() {
+export function handler() {
   console.log("run main");
 }
-
-main();
